@@ -1,0 +1,21 @@
+{
+  "description": "Cloud continuity sync configuration - documents what's symlinked to Google Drive",
+  "googleDrivePath": "/Users/sam/Google Drive/My Drive/sam-agent",
+  "method": "symlinks",
+  "syncedFiles": [
+    { "source": "memory/", "target": "memory/", "type": "folder" },
+    { "source": "MEMORY.md", "target": "MEMORY.md" },
+    { "source": "SOUL.md", "target": "SOUL.md" },
+    { "source": "USER.md", "target": "USER.md" },
+    { "source": "AGENTS.md", "target": "AGENTS.md" },
+    { "source": "TOOLS.md", "target": "TOOLS.md" },
+    { "source": "HEARTBEAT.md", "target": "HEARTBEAT.md" },
+    { "source": "IDENTITY.md", "target": "IDENTITY.md" }
+  ],
+  "syncedConfig": [
+    { "source": "~/.openclaw/openclaw.json", "target": "config/openclaw.json" },
+    { "source": ".openclaw/workspace-state.json", "target": "config/workspace-state.json" },
+    { "source": "voice-gateway/.env", "target": "config/voice-gateway.env" },
+    { "source": ".clawhub/lock.json", "target": "config/clawhub-lock.json" }
+  ]
+}

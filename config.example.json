@@ -1,0 +1,29 @@
+{
+  "agent": {
+    "name": "your-agent-name",
+    "email": "agent@yourdomain.com", 
+    "workspace": "/path/to/agent/workspace"
+  },
+  "googleDrive": {
+    "folderName": "{agent-name}-backup",
+    "syncInterval": 5000,
+    "enableRealTimeSync": true
+  },
+  "backup": {
+    "retentionDays": 90,
+    "enableEncryption": false
+  },
+  "syncFiles": [
+    "MEMORY.md",
+    "SOUL.md", 
+    "USER.md",
+    "IDENTITY.md",
+    "AGENTS.md",
+    "TOOLS.md",
+    "HEARTBEAT.md",
+    "tasks/pending.md"
+  ],
+  "syncDirectories": [
+    "memory"
+  ]
+}

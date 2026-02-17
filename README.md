@@ -42,7 +42,8 @@ Workspace files are **symlinks** pointing to files in `~/Google Drive/My Drive/{
 ## Setup
 
 ```bash
-cd agent-cloud-continuity
+git clone https://github.com/AlfeAI/openclaw-cloud-continuity.git
+cd openclaw-cloud-continuity
 ./setup-symlinks.sh
 ```
 
